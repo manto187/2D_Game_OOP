@@ -60,14 +60,10 @@ namespace FirstDesktopApp.Level
 
         private void LoadHealthPackSprites()
         {
-            // Load health pack sprites (use a few different ones for variety)
-            int[] healthPackIds = { 1, 5, 10, 15, 20 };
-            foreach (var id in healthPackIds)
-            {
-                var path = Path.Combine(_resourcePath, "Health_packs", "without_shadow", $"{id}.png");
-                if (File.Exists(path))
-                    _healthPackSprites.Add(Image.FromFile(path));
-            }
+            // Load single health pack sprite
+            var path = Path.Combine(_resourcePath, "Health_packs", "without_shadow", "1.png");
+            if (File.Exists(path))
+                _healthPackSprites.Add(Image.FromFile(path));
         }
 
         private void PreloadWraithFrames()

@@ -5,8 +5,9 @@ using FirstDesktopApp.Interfaces;
 namespace FirstDesktopApp.Movements
 {
     /// <summary>
-    /// Aggressive AI movement for Level 3 enemies.
-    /// Chases player in all directions: horizontal, vertical, diagonal, zig-zag.
+    /// Aggressive AI movement for enemies.
+    /// Moves in ALL directions: horizontal, vertical, diagonal, zig-zag patterns.
+    /// Chases player aggressively.
     /// </summary>
     public class AggressiveAIMovement : IMovement
     {
@@ -17,28 +18,33 @@ namespace FirstDesktopApp.Movements
         private float _directionX;
         private float _directionY;
         private float _patternTimer;
-        private float _zigzagTimer;
+        private float _moveTimer;
         private readonly float _minX;
         private readonly float _maxX;
         private readonly float _minY;
         private readonly float _maxY;
         private MovementPattern _currentPattern;
         private PointF? _targetPosition;
-        private bool _isChasing;
+        private float _zigzagPhase;
         
         public bool FacingRight => _directionX >= 0;
-        public bool IsIdle => false; // Never idle - always aggressive
+        public bool IsIdle => false;
 
         private enum MovementPattern
         {
-            Chase,
-            ZigZag,
-            Diagonal,
-            Surround,
-            Vertical
+            DirectChase,
+            ZigZagHorizontal,
+            ZigZagVertical,
+            DiagonalTopRight,
+            DiagonalTopLeft,
+            DiagonalBottomRight,
+            DiagonalBottomLeft,
+            CircleAround,
+            VerticalBounce,
+            RandomWander
         }
 
-        public AggressiveAIMovement(float minX, float maxX, float speed = 3f, float minY = 300, float maxY = 500)
+        public AggressiveAIMovement(float minX, float maxX, float speed = 3f, float minY = 280, float maxY = 450)
         {
             _minX = minX;
             _maxX = maxX;
@@ -47,61 +53,82 @@ namespace FirstDesktopApp.Movements
             _baseSpeed = speed;
             _speed = speed;
             _directionX = _random.Next(2) == 0 ? 1 : -1;
-            _directionY = 0;
+            _directionY = _random.Next(2) == 0 ? 0.5f : -0.5f;
             _patternTimer = GetRandomPatternTime();
-            _currentPattern = MovementPattern.Chase;
+            _currentPattern = GetRandomPattern();
+            _zigzagPhase = (float)_random.NextDouble() * 6.28f;
         }
 
         public void Move(GameObject obj, GameTime gameTime)
         {
             float dt = gameTime.DeltaTime / 60f;
+            _moveTimer += dt;
+            _zigzagPhase += dt * 5f;
             
-            // Update pattern timer
+            // Switch patterns periodically
             _patternTimer -= dt;
             if (_patternTimer <= 0)
             {
-                SwitchPattern();
+                _currentPattern = GetRandomPattern();
                 _patternTimer = GetRandomPatternTime();
+                _speed = _baseSpeed * (0.9f + (float)_random.NextDouble() * 0.4f);
             }
 
             // Execute current movement pattern
-            switch (_currentPattern)
-            {
-                case MovementPattern.ZigZag:
-                    ExecuteZigZag(obj, dt);
-                    break;
-                case MovementPattern.Diagonal:
-                    ExecuteDiagonal(obj, dt);
-                    break;
-                case MovementPattern.Surround:
-                    ExecuteSurround(obj, dt);
-                    break;
-                case MovementPattern.Vertical:
-                    ExecuteVertical(obj, dt);
-                    break;
-                default:
-                    ExecuteChase(obj, dt);
-                    break;
-            }
+            ExecutePattern(obj, dt);
 
             // Apply movement with boundary checks
             ApplyMovement(obj);
         }
 
-        private void SwitchPattern()
+        private MovementPattern GetRandomPattern()
         {
-            // Randomly select a new pattern
             var patterns = Enum.GetValues<MovementPattern>();
-            _currentPattern = patterns[_random.Next(patterns.Length)];
-            
-            // Reset zig-zag timer for new pattern
-            _zigzagTimer = 0;
-            
-            // Randomize speed variation
-            _speed = _baseSpeed * (0.8f + (float)_random.NextDouble() * 0.6f);
+            return patterns[_random.Next(patterns.Length)];
         }
 
-        private void ExecuteChase(GameObject obj, float dt)
+        private void ExecutePattern(GameObject obj, float dt)
+        {
+            switch (_currentPattern)
+            {
+                case MovementPattern.DirectChase:
+                    ExecuteDirectChase(obj);
+                    break;
+                case MovementPattern.ZigZagHorizontal:
+                    ExecuteZigZagHorizontal(obj);
+                    break;
+                case MovementPattern.ZigZagVertical:
+                    ExecuteZigZagVertical(obj);
+                    break;
+                case MovementPattern.DiagonalTopRight:
+                    _directionX = 0.7f;
+                    _directionY = -0.7f;
+                    break;
+                case MovementPattern.DiagonalTopLeft:
+                    _directionX = -0.7f;
+                    _directionY = -0.7f;
+                    break;
+                case MovementPattern.DiagonalBottomRight:
+                    _directionX = 0.7f;
+                    _directionY = 0.7f;
+                    break;
+                case MovementPattern.DiagonalBottomLeft:
+                    _directionX = -0.7f;
+                    _directionY = 0.7f;
+                    break;
+                case MovementPattern.CircleAround:
+                    ExecuteCircleAround(obj);
+                    break;
+                case MovementPattern.VerticalBounce:
+                    ExecuteVerticalBounce(obj);
+                    break;
+                case MovementPattern.RandomWander:
+                    ExecuteRandomWander(obj);
+                    break;
+            }
+        }
+
+        private void ExecuteDirectChase(GameObject obj)
         {
             if (_targetPosition.HasValue)
             {
@@ -109,80 +136,91 @@ namespace FirstDesktopApp.Movements
                 float dy = _targetPosition.Value.Y - obj.Position.Y;
                 float dist = (float)Math.Sqrt(dx * dx + dy * dy);
                 
-                if (dist > 10)
+                if (dist > 5)
                 {
                     _directionX = dx / dist;
-                    _directionY = dy / dist * 0.3f; // Reduced vertical chase
+                    _directionY = dy / dist;
                 }
+            }
+            else
+            {
+                // Wander if no target
+                _directionY = (float)Math.Sin(_zigzagPhase) * 0.5f;
             }
         }
 
-        private void ExecuteZigZag(GameObject obj, float dt)
+        private void ExecuteZigZagHorizontal(GameObject obj)
         {
-            _zigzagTimer += dt;
-            
-            // Zig-zag horizontally while moving toward target
+            // Move horizontally toward target while oscillating vertically
             if (_targetPosition.HasValue)
             {
                 float dx = _targetPosition.Value.X - obj.Position.X;
-                _directionX = dx > 0 ? 1 : -1;
+                _directionX = dx > 0 ? 1f : -1f;
             }
-            
-            // Oscillate vertically
-            _directionY = (float)Math.Sin(_zigzagTimer * 8) * 0.5f;
+            _directionY = (float)Math.Sin(_zigzagPhase) * 0.8f;
         }
 
-        private void ExecuteDiagonal(GameObject obj, float dt)
+        private void ExecuteZigZagVertical(GameObject obj)
         {
+            // Move vertically while oscillating horizontally
+            if (_targetPosition.HasValue)
+            {
+                float dy = _targetPosition.Value.Y - obj.Position.Y;
+                _directionY = dy > 0 ? 0.6f : -0.6f;
+            }
+            _directionX = (float)Math.Sin(_zigzagPhase) * 0.8f;
+        }
+
+        private void ExecuteCircleAround(GameObject obj)
+        {
+            // Circular motion around current position
+            _directionX = (float)Math.Cos(_zigzagPhase) * 0.8f;
+            _directionY = (float)Math.Sin(_zigzagPhase) * 0.6f;
+            
+            // Slowly drift toward target
             if (_targetPosition.HasValue)
             {
                 float dx = _targetPosition.Value.X - obj.Position.X;
                 float dy = _targetPosition.Value.Y - obj.Position.Y;
-                
-                // Move diagonally toward player
-                _directionX = dx > 0 ? 0.7f : -0.7f;
-                _directionY = dy > 0 ? 0.3f : -0.3f;
+                _directionX += dx > 0 ? 0.2f : -0.2f;
+                _directionY += dy > 0 ? 0.1f : -0.1f;
             }
         }
 
-        private void ExecuteSurround(GameObject obj, float dt)
+        private void ExecuteVerticalBounce(GameObject obj)
         {
-            _zigzagTimer += dt;
+            // Strong vertical movement
+            _directionY = (float)Math.Sin(_zigzagPhase * 1.5f) * 1f;
             
+            // Slow horizontal drift toward target
             if (_targetPosition.HasValue)
             {
                 float dx = _targetPosition.Value.X - obj.Position.X;
-                float dist = Math.Abs(dx);
-                
-                // Circle around the player
-                if (dist < 150)
-                {
-                    // Move away slightly while circling
-                    _directionX = dx > 0 ? -0.5f : 0.5f;
-                    _directionY = (float)Math.Sin(_zigzagTimer * 4) * 0.4f;
-                }
-                else
-                {
-                    // Approach
-                    _directionX = dx > 0 ? 1 : -1;
-                    _directionY = (float)Math.Sin(_zigzagTimer * 6) * 0.3f;
-                }
+                _directionX = dx > 0 ? 0.4f : -0.4f;
             }
         }
 
-        private void ExecuteVertical(GameObject obj, float dt)
+        private void ExecuteRandomWander(GameObject obj)
         {
-            _zigzagTimer += dt;
-            
-            // Strong vertical movement while slowly approaching
-            if (_targetPosition.HasValue)
+            // Change direction randomly
+            if (_random.Next(100) < 5)
             {
-                float dx = _targetPosition.Value.X - obj.Position.X;
-                _directionX = (dx > 0 ? 0.3f : -0.3f);
+                _directionX = (float)(_random.NextDouble() * 2 - 1) * 1f;
+                _directionY = (float)(_random.NextDouble() * 2 - 1) * 0.6f;
             }
             
-            // Oscillate vertically more aggressively
-            _directionY = (float)Math.Sin(_zigzagTimer * 5) * 0.6f;
+            // Occasionally move toward target
+            if (_targetPosition.HasValue && _random.Next(100) < 20)
+            {
+                float dx = _targetPosition.Value.X - obj.Position.X;
+                float dy = _targetPosition.Value.Y - obj.Position.Y;
+                float dist = (float)Math.Sqrt(dx * dx + dy * dy);
+                if (dist > 5)
+                {
+                    _directionX = (dx / dist) * 0.8f;
+                    _directionY = (dy / dist) * 0.5f;
+                }
+            }
         }
 
         private void ApplyMovement(GameObject obj)
@@ -190,7 +228,7 @@ namespace FirstDesktopApp.Movements
             float newX = obj.Position.X + (_directionX * _speed);
             float newY = obj.Position.Y + (_directionY * _speed);
             
-            // Horizontal boundary checks
+            // Horizontal boundary checks - bounce off walls
             if (newX < _minX)
             {
                 newX = _minX;
@@ -202,7 +240,7 @@ namespace FirstDesktopApp.Movements
                 _directionX = -Math.Abs(_directionX);
             }
             
-            // Vertical boundary checks
+            // Vertical boundary checks - bounce off ceiling/floor
             if (newY < _minY)
             {
                 newY = _minY;
@@ -219,21 +257,23 @@ namespace FirstDesktopApp.Movements
 
         private float GetRandomPatternTime()
         {
-            return 1.5f + (float)_random.NextDouble() * 2f; // 1.5-3.5 seconds per pattern
+            return 1f + (float)_random.NextDouble() * 2f;
         }
 
-        /// <summary>
-        /// Set target position (player position) for chasing
-        /// </summary>
         public void SetTarget(PointF target)
         {
             _targetPosition = target;
-            _isChasing = true;
         }
 
         public void SetDirection(float dirX)
         {
             _directionX = dirX > 0 ? 1 : -1;
+        }
+        
+        public void SetSpeed(float speed)
+        {
+            _baseSpeed = speed;
+            _speed = speed;
         }
     }
 }

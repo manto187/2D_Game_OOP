@@ -120,22 +120,37 @@ namespace FirstDesktopApp
                     _ => EnemyType.Wraith01
                 };
 
-                // Level 3 uses aggressive AI with faster speeds
-                IMovement movement;
-                if (spawn.IsAggressive || _currentLevel == 3)
+                // Speed multiplier based on level
+                float levelSpeedMultiplier = _currentLevel switch
                 {
-                    // Aggressive enemies for Level 3 - faster and chase player
-                    float aggressiveSpeed = enemyType switch
+                    3 => 2.0f,  // Level 3: 2x speed
+                    2 => 1.3f,  // Level 2: 1.3x speed
+                    _ => 1.0f   // Level 1: normal speed
+                };
+
+                IMovement movement;
+                
+                // Level 2 and 3 use aggressive AI that moves in all directions
+                if (_currentLevel >= 2)
+                {
+                    float baseSpeed = enemyType switch
                     {
-                        EnemyType.Wraith03 => 3.5f,
-                        EnemyType.Wraith02 => 3.0f,
-                        _ => 2.5f
+                        EnemyType.Wraith03 => 2.5f,
+                        EnemyType.Wraith02 => 2.0f,
+                        _ => 1.5f
                     };
-                    movement = new AggressiveAIMovement(spawn.PatrolLeft, spawn.PatrolRight, aggressiveSpeed, 280, 450);
+                    
+                    float finalSpeed = baseSpeed * levelSpeedMultiplier;
+                    
+                    // Vertical bounds for movement
+                    float minY = _currentLevel == 3 ? 250 : 300;
+                    float maxY = _currentLevel == 3 ? 420 : 400;
+                    
+                    movement = new AggressiveAIMovement(spawn.PatrolLeft, spawn.PatrolRight, finalSpeed, minY, maxY);
                 }
                 else
                 {
-                    // Normal random AI for Level 1 and 2
+                    // Level 1 uses simpler random AI
                     float speed = enemyType switch
                     {
                         EnemyType.Wraith03 => 2.0f,
@@ -151,11 +166,16 @@ namespace FirstDesktopApp
                     Movement = movement
                 };
                 
-                // Make Level 3 enemies more aggressive with faster attacks
+                // Adjust attack parameters based on level
                 if (_currentLevel == 3)
                 {
-                    enemy.AttackCooldown = 0.5f; // Very fast attacks
-                    enemy.AttackRange = 500f;   // Longer range
+                    enemy.AttackCooldown = 0.4f;  // Very fast attacks
+                    enemy.AttackRange = 550f;    // Very long range
+                }
+                else if (_currentLevel == 2)
+                {
+                    enemy.AttackCooldown = 0.8f;  // Fast attacks
+                    enemy.AttackRange = 400f;    // Long range
                 }
                 
                 _levelLoader.ApplyWraithAnimations(enemy, spawn.EnemyType);

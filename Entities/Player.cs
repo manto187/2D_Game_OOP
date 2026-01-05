@@ -21,7 +21,7 @@ namespace FirstDesktopApp.Entities
         private float _shootCooldown;
         private bool _isShooting;
         private float _shootAnimTimer;
-        private const float InvincibilityDuration = 1.5f;
+        private const float InvincibilityDuration = 0.8f; // Reduced from 1.5s for more challenge
         private const float ShootCooldown = 0.3f;
 
         // Event for spawning bullets

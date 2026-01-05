@@ -117,12 +117,34 @@ namespace FirstDesktopApp.Core
         {
             if (Player == null || Player.IsDead) return;
 
-            foreach (var proj in _objects.OfType<EnemyProjectile>().Where(p => p.IsActive))
+            // Check enemy projectiles hitting player
+            foreach (var proj in _objects.OfType<EnemyProjectile>().Where(p => p.IsActive).ToList())
             {
-                if (proj.Bounds.IntersectsWith(Player.Bounds))
+                // Use world coordinates for collision
+                var projBounds = new RectangleF(proj.Position, proj.Size);
+                var playerBounds = new RectangleF(Player.Position, Player.Size);
+                
+                if (projBounds.IntersectsWith(playerBounds))
                 {
                     Player.TakeDamage(proj.Damage);
                     proj.IsActive = false;
+                }
+            }
+            
+            // Check player collecting health packs
+            foreach (var powerUp in _objects.OfType<PowerUp>().Where(p => p.IsActive).ToList())
+            {
+                var powerUpBounds = new RectangleF(powerUp.Position, powerUp.Size);
+                var playerBounds = new RectangleF(Player.Position, Player.Size);
+                
+                if (powerUpBounds.IntersectsWith(playerBounds))
+                {
+                    if (powerUp.Type == PowerUpType.Health)
+                    {
+                        Player.Health = Math.Min(100, Player.Health + powerUp.HealAmount);
+                        Player.Score += 50;
+                    }
+                    powerUp.IsActive = false;
                 }
             }
         }

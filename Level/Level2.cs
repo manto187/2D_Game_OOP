@@ -55,14 +55,14 @@ namespace FirstDesktopApp.Level
             {
                 new EnemySpawn { X = 300, Y = 368, PatrolLeft = 0, PatrolRight = 250, EnemyType = "Wraith_02" },
                 new EnemySpawn { X = 900, Y = 368, PatrolLeft = 832, PatrolRight = 1000, EnemyType = "Wraith_01" },
-                new EnemySpawn { X = 1400, Y = 368, PatrolLeft = 1216, PatrolRight = 1550, EnemyType = "Wraith_03" },
+                new EnemySpawn { X = 1400, Y = 368, PatrolLeft = 1216, PatrolRight = 1550, EnemyType = "Wraith_03", IsAggressive = true },
                 new EnemySpawn { X = 2000, Y = 368, PatrolLeft = 1800, PatrolRight = 2200, EnemyType = "Wraith_02" },
                 new EnemySpawn { X = 2700, Y = 368, PatrolLeft = 2500, PatrolRight = 2900, EnemyType = "Wraith_03" },
-                new EnemySpawn { X = 3400, Y = 368, PatrolLeft = 3200, PatrolRight = 3600, EnemyType = "Wraith_02" },
+                new EnemySpawn { X = 3400, Y = 368, PatrolLeft = 3200, PatrolRight = 3600, EnemyType = "Wraith_02", IsAggressive = true },
                 new EnemySpawn { X = 4100, Y = 368, PatrolLeft = 3900, PatrolRight = 4300, EnemyType = "Wraith_03" },
                 new EnemySpawn { X = 4800, Y = 368, PatrolLeft = 4600, PatrolRight = 5000, EnemyType = "Wraith_02" },
                 new EnemySpawn { X = 5500, Y = 368, PatrolLeft = 5300, PatrolRight = 5800, EnemyType = "Wraith_03" },
-                new EnemySpawn { X = 6100, Y = 368, PatrolLeft = 5900, PatrolRight = 6300, EnemyType = "Wraith_03" },
+                new EnemySpawn { X = 6100, Y = 368, PatrolLeft = 5900, PatrolRight = 6300, EnemyType = "Wraith_03", IsAggressive = true },
             };
         }
 
@@ -73,33 +73,32 @@ namespace FirstDesktopApp.Level
             return new List<ObstacleSpawn>
             {
                 new ObstacleSpawn { X = 150, Y = 384, SpriteType = "SnowMan" },
-                new ObstacleSpawn { X = 500, Y = 384, SpriteType = "Crystal" },
+                
                 new ObstacleSpawn { X = 850, Y = 384, SpriteType = "IceBox" },
-                new ObstacleSpawn { X = 1200, Y = 384, SpriteType = "Tree_1" },
+                
                 new ObstacleSpawn { X = 1600, Y = 384, SpriteType = "Igloo" },
-                new ObstacleSpawn { X = 2100, Y = 384, SpriteType = "Stone" },
+
                 new ObstacleSpawn { X = 2500, Y = 384, SpriteType = "Sign_1" },
-                new ObstacleSpawn { X = 2900, Y = 384, SpriteType = "Crystal" },
                 new ObstacleSpawn { X = 3300, Y = 384, SpriteType = "Tree_2" },
-                new ObstacleSpawn { X = 3700, Y = 384, SpriteType = "SnowMan" },
+    
                 new ObstacleSpawn { X = 4100, Y = 384, SpriteType = "IceBox" },
                 new ObstacleSpawn { X = 4500, Y = 384, SpriteType = "Crate" },
-                new ObstacleSpawn { X = 4900, Y = 384, SpriteType = "Sign_2" },
+            
                 new ObstacleSpawn { X = 5400, Y = 384, SpriteType = "Crystal" },
-                new ObstacleSpawn { X = 5900, Y = 384, SpriteType = "Igloo" },
+            
             };
         }
 
         private static List<HealthPackSpawn> CreateHealthPackSpawns()
         {
-            // Health packs placed at strategic locations
+            // Health packs placed at strategic locations - all heal 45
             return new List<HealthPackSpawn>
             {
-                new HealthPackSpawn { X = 700, Y = 340, HealAmount = 25 },
-                new HealthPackSpawn { X = 1800, Y = 340, HealAmount = 25 },
-                new HealthPackSpawn { X = 3000, Y = 340, HealAmount = 30 },
-                new HealthPackSpawn { X = 4300, Y = 340, HealAmount = 25 },
-                new HealthPackSpawn { X = 5600, Y = 340, HealAmount = 30 },
+                new HealthPackSpawn { X = 700, Y = 340, HealAmount = 45 },
+                new HealthPackSpawn { X = 1800, Y = 340, HealAmount = 45 },
+                new HealthPackSpawn { X = 3000, Y = 340, HealAmount = 45 },
+                new HealthPackSpawn { X = 4300, Y = 340, HealAmount = 45 },
+                new HealthPackSpawn { X = 5600, Y = 340, HealAmount = 45 },
             };
         }
     }

@@ -54,7 +54,7 @@ namespace FirstDesktopApp.Level
                 // Only Wraith_01 enemies (easiest type) - well spaced out
                 new EnemySpawn { X = 600, Y = 432, PatrolLeft = 0, PatrolRight = 900, EnemyType = "Wraith_01" },
                 new EnemySpawn { X = 2000, Y = 432, PatrolLeft = 1600, PatrolRight = 2500, EnemyType = "Wraith_01" },
-                new EnemySpawn { X = 3800, Y = 432, PatrolLeft = 3400, PatrolRight = 4200, EnemyType = "Wraith_01" },
+                new EnemySpawn { X = 3800, Y = 432, PatrolLeft = 3400, PatrolRight = 4200, EnemyType = "Wraith_01", IsAggressive = true},
                 new EnemySpawn { X = 5500, Y = 432, PatrolLeft = 5000, PatrolRight = 6000, EnemyType = "Wraith_01" },
             };
         }
