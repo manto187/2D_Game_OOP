@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "09grTzYES+M=",
+  "success": true,
+  "projectFilePath": "D:\\GAME WITH OOP\\FirstDesktopApp\\FirstDesktopApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\ezinput\\1.3.2\\ezinput.1.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

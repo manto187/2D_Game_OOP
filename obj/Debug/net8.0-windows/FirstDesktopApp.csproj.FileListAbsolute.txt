@@ -1,0 +1,555 @@
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.exe
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.deps.json
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.runtimeconfig.json
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.dll
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.pdb
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\bin\Debug\net8.0-windows\EZInput.dll
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.AssemblyReference.cache
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.Form1.resources
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.GenerateResource.cache
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.AssemblyInfoInputs.cache
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.AssemblyInfo.cs
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.CoreCompileInputs.cache
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDes.6FCFB823.Up2Date
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.dll
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\refint\FirstDesktopApp.dll
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.pdb
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.genruntimeconfig.cache
+C:\semester 2\OOP\LAB\week 13\FirstDesktopApp\obj\Debug\net8.0-windows\ref\FirstDesktopApp.dll
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.Form1.resources
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.GenerateResource.cache
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.AssemblyInfo.cs
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.dll
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\refint\FirstDesktopApp.dll
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.pdb
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.exe
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.deps.json
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.runtimeconfig.json
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.dll
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.pdb
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\bin\Debug\net8.0-windows\EZInput.dll
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDes.6FCFB823.Up2Date
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.genruntimeconfig.cache
+C:\Users\User\Downloads\GAME\FirstDesktopApp\FirstDesktopApp\obj\Debug\net8.0-windows\ref\FirstDesktopApp.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.exe
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.deps.json
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.runtimeconfig.json
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\FirstDesktopApp.pdb
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\EZInput.dll
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.AssemblyReference.cache
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.Form1.resources
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.GenerateResource.cache
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.AssemblyInfoInputs.cache
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.AssemblyInfo.cs
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.csproj.CoreCompileInputs.cache
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDes.6FCFB823.Up2Date
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.dll
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\refint\FirstDesktopApp.dll
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.pdb
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.genruntimeconfig.cache
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\ref\FirstDesktopApp.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\ai\Sample.ai
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\ai\Tile.ai
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\cdr\Backup_of_Preview.cdr
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\cdr\Backup_of_Tile.cdr
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\cdr\Preview.cdr
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\cdr\Tile.cdr
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\eps\Sample.eps
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\eps\Tile.eps
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\BG\BG.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Bush (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Bush (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Bush (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Bush (4).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Crate.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Mushroom_1.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Mushroom_2.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Sign_1.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Sign_2.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Stone.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Tree_1.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Tree_2.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Object\Tree_3.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\1.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\10.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\11.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\12.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\13.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\14.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\15.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\16.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\17.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\18.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\2.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\3.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\4.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\5.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\6.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\7.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\8.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\png\Tiles\9.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\svg\Sample.svg
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\freetileset\svg\Tile.svg
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (10).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (4).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (5).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (6).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (7).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (8).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Dead (9).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (10).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (4).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (5).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (6).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (7).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (8).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Idle (9).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (10).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (4).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (5).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (6).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (7).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (8).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Jump (9).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Melee (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Melee (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Melee (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Melee (4).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Melee (5).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Melee (6).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Melee (7).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (4).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (5).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (6).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (7).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Run (8).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Shoot (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Shoot (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Shoot (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Slide (1).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Slide (2).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Slide (3).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Slide (4).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\png\Slide (5).png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Attacking\Wraith_01_Attack_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_015.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_016.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Casting Spells\Wraith_01_Casting Spells_017.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Dying\Wraith_01_Dying_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Hurt\Wraith_01_Hurt_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle Blink\Wraith_01_Idle Blinking_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Idle\Wraith_01_Idle_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_015.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_016.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Taunt\Wraith_01_Taunt_017.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\PNG Sequences\Walking\Wraith_01_Moving Forward_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Animations.scml
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Body.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Face 01.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Face 02.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Face 03.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Head.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Left Arm.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Left Hand.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Right Arm.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Right Hand.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_01\Vector Parts\Spells Effect.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Attacking\Wraith_02_Attack_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_015.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_016.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Casting Spells\Wraith_02_Casting Spells_017.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Dying\Wraith_02_Dying_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Hurt\Wraith_02_Hurt_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle Blink\Wraith_02_Idle Blinking_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Idle\Wraith_02_Idle_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_015.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_016.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Taunt\Wraith_02_Taunt_017.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\PNG Sequences\Walking\Wraith_02_Moving Forward_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Animations.scml
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Body.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Face 01.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Face 02.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Face 03.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Head.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Left Arm.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Left Hand.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Right Arm.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Right Hand.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_02\Vector Parts\Spells Effect.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Attacking\Wraith_03_Attack_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_015.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_016.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Casting Spells\Wraith_03_Casting Spells_017.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Dying\Wraith_03_Dying_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Hurt\Wraith_03_Hurt_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle Blink\Wraith_03_Idle Blinking_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Idle\Wraith_03_Idle_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_012.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_013.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_014.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_015.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_016.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Taunt\Wraith_03_Taunt_017.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_000.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_001.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_002.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_003.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_004.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_005.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_006.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_007.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_008.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_009.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_010.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\PNG Sequences\Walking\Wraith_03_Moving Forward_011.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Animations.scml
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Body.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Face 01.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Face 02.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Face 03.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Head.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Left Arm.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Left Hand.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Right Arm.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Right Hand.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Wraith_03\Vector Parts\Spells-Effect.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\7027478_orig.jpg
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\ai\Sample.ai
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\ai\Tile.ai
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\cdr\Tile.cdr
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\eps\Sample.eps
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\eps\Tile.eps
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\BG\BG.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Crate.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Crystal.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\IceBox.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Igloo.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Sign_1.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Sign_2.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\SnowMan.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Stone.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Tree_1.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Object\Tree_2.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\1.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\10.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\11.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\12.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\13.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\14.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\15.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\16.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\17.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\18.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\2.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\3.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\4.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\5.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\6.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\7.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\8.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\png\Tiles\9.png
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\svg\Sample.svg
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\wintertileset\svg\Tile.svg
