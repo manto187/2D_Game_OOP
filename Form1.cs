@@ -1,5 +1,6 @@
 using FirstDesktopApp.Core;
 using FirstDesktopApp.Entities;
+using FirstDesktopApp.Interfaces;
 using FirstDesktopApp.Level;
 using FirstDesktopApp.Movements;
 using FirstDesktopApp.Rendering;
@@ -69,6 +70,7 @@ namespace FirstDesktopApp
             // Load appropriate level
             var levelData = _currentLevel switch
             {
+                3 => Level3.Create(),
                 2 => Level2.Create(),
                 _ => Level1.Create()
             };
@@ -93,6 +95,10 @@ namespace FirstDesktopApp
             var obstacles = _levelLoader.BuildObstacles(levelData);
             _game.AddObjects(obstacles.Cast<GameObject>());
 
+            // Build health packs (Level 2 and 3)
+            var healthPacks = _levelLoader.BuildHealthPacks(levelData);
+            _game.AddObjects(healthPacks.Cast<GameObject>());
+
             // Create player - spawn on ground
             var spawnY = FindGroundY(levelData, levelData.PlayerSpawn.X);
             var player = new Player
@@ -104,7 +110,7 @@ namespace FirstDesktopApp
             player.Score = _playerScore; // Carry over score from previous level
             _game.AddObject(player);
 
-            // Create Wraith enemies with random AI movement
+            // Create enemies
             foreach (var spawn in levelData.EnemySpawns)
             {
                 var enemyType = spawn.EnemyType switch
@@ -114,19 +120,44 @@ namespace FirstDesktopApp
                     _ => EnemyType.Wraith01
                 };
 
-                // Use RandomAIMovement for more dynamic enemy behavior
-                float speed = enemyType switch
+                // Level 3 uses aggressive AI with faster speeds
+                IMovement movement;
+                if (spawn.IsAggressive || _currentLevel == 3)
                 {
-                    EnemyType.Wraith03 => 2.0f,
-                    EnemyType.Wraith02 => 1.8f,
-                    _ => 1.5f
-                };
+                    // Aggressive enemies for Level 3 - faster and chase player
+                    float aggressiveSpeed = enemyType switch
+                    {
+                        EnemyType.Wraith03 => 3.5f,
+                        EnemyType.Wraith02 => 3.0f,
+                        _ => 2.5f
+                    };
+                    movement = new AggressiveAIMovement(spawn.PatrolLeft, spawn.PatrolRight, aggressiveSpeed, 280, 450);
+                }
+                else
+                {
+                    // Normal random AI for Level 1 and 2
+                    float speed = enemyType switch
+                    {
+                        EnemyType.Wraith03 => 2.0f,
+                        EnemyType.Wraith02 => 1.8f,
+                        _ => 1.5f
+                    };
+                    movement = new RandomAIMovement(spawn.PatrolLeft, spawn.PatrolRight, speed);
+                }
 
                 var enemy = new Enemy(enemyType)
                 {
                     Position = new PointF(spawn.X, spawn.Y),
-                    Movement = new RandomAIMovement(spawn.PatrolLeft, spawn.PatrolRight, speed)
+                    Movement = movement
                 };
+                
+                // Make Level 3 enemies more aggressive with faster attacks
+                if (_currentLevel == 3)
+                {
+                    enemy.AttackCooldown = 0.5f; // Very fast attacks
+                    enemy.AttackRange = 500f;   // Longer range
+                }
+                
                 _levelLoader.ApplyWraithAnimations(enemy, spawn.EnemyType);
                 _game.AddObject(enemy);
             }
@@ -159,7 +190,7 @@ namespace FirstDesktopApp
             // Move to next level
             _currentLevel++;
             
-            if (_currentLevel > 2)
+            if (_currentLevel > 3)
             {
                 // Game completed - show victory and reset
                 MessageBox.Show($"Congratulations! You completed all levels!\nFinal Score: {_playerScore}", 

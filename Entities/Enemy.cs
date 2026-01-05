@@ -141,6 +141,11 @@ namespace FirstDesktopApp.Entities
                     return;
                 }
             }
+            else if (Movement is AggressiveAIMovement aggressiveAI)
+            {
+                FacingRight = aggressiveAI.FacingRight;
+                // Aggressive AI never idles
+            }
 
             SetAnimation("Walking");
         }
@@ -216,22 +221,27 @@ namespace FirstDesktopApp.Entities
             float dist = Math.Abs(distX);
             
             // Face the player when in aggro range
-            if (dist < _aggroRange && distY < 150)
+            if (dist < _aggroRange && distY < 200)
             {
                 FacingRight = distX > 0;
                 
-                // If using RandomAIMovement, make enemy move toward player
+                // Update movement AI with player position
                 if (Movement is RandomAIMovement randomAI)
                 {
                     randomAI.SetDirection(distX);
                 }
+                else if (Movement is AggressiveAIMovement aggressiveAI)
+                {
+                    // Set target for aggressive AI to chase
+                    aggressiveAI.SetTarget(player.Position);
+                }
             }
 
             // Attack when in range and cooldown is ready
-            if (dist < AttackRange && distY < 100 && _attackTimer <= 0)
+            if (dist < AttackRange && distY < 150 && _attackTimer <= 0)
             {
                 State = EnemyState.Attacking;
-                _stateTimer = 0.8f;
+                _stateTimer = 0.6f;
                 _attackTimer = AttackCooldown;
                 SetAnimation("Attacking");
 

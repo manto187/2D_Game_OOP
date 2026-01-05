@@ -16,7 +16,8 @@ namespace FirstDesktopApp.Level
                 TileMap = CreateTileMap(),
                 EnemySpawns = CreateEnemySpawns(),
                 ObstacleSpawns = CreateObstacleSpawns(),
-                TilesetName = "wintertileset" // Use winter tileset
+                HealthPackSpawns = CreateHealthPackSpawns(),
+                TilesetName = "wintertileset"
             };
         }
 
@@ -86,6 +87,19 @@ namespace FirstDesktopApp.Level
                 new ObstacleSpawn { X = 4900, Y = 384, SpriteType = "Sign_2" },
                 new ObstacleSpawn { X = 5400, Y = 384, SpriteType = "Crystal" },
                 new ObstacleSpawn { X = 5900, Y = 384, SpriteType = "Igloo" },
+            };
+        }
+
+        private static List<HealthPackSpawn> CreateHealthPackSpawns()
+        {
+            // Health packs placed at strategic locations
+            return new List<HealthPackSpawn>
+            {
+                new HealthPackSpawn { X = 700, Y = 340, HealAmount = 25 },
+                new HealthPackSpawn { X = 1800, Y = 340, HealAmount = 25 },
+                new HealthPackSpawn { X = 3000, Y = 340, HealAmount = 30 },
+                new HealthPackSpawn { X = 4300, Y = 340, HealAmount = 25 },
+                new HealthPackSpawn { X = 5600, Y = 340, HealAmount = 30 },
             };
         }
     }

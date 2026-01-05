@@ -128,10 +128,10 @@ namespace FirstDesktopApp.Entities
                 TakeDamage(20);
             }
 
-            if (other is PowerUp)
+            if (other is PowerUp powerUp)
             {
-                Health = Math.Min(100, Health + 20);
-                Score += 100;
+                Health = Math.Min(100, Health + powerUp.HealAmount);
+                Score += 50;
             }
         }
 

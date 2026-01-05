@@ -10,8 +10,9 @@ namespace FirstDesktopApp.Level
         public PointF PlayerSpawn { get; set; }
         public List<EnemySpawn> EnemySpawns { get; set; } = new();
         public List<ObstacleSpawn> ObstacleSpawns { get; set; } = new();
+        public List<HealthPackSpawn> HealthPackSpawns { get; set; } = new();
         public float FallDeathY { get; set; } = 800;
-        public string TilesetName { get; set; } = "freetileset"; // Default tileset
+        public string TilesetName { get; set; } = "freetileset";
         public int Width => TileMap.GetLength(1);
         public int Height => TileMap.GetLength(0);
     }
@@ -22,7 +23,8 @@ namespace FirstDesktopApp.Level
         public float Y { get; set; }
         public float PatrolLeft { get; set; }
         public float PatrolRight { get; set; }
-        public string EnemyType { get; set; } = "Hyena";
+        public string EnemyType { get; set; } = "Wraith_01";
+        public bool IsAggressive { get; set; } = false; // For Level 3 aggressive enemies
     }
 
     public class ObstacleSpawn
@@ -30,5 +32,12 @@ namespace FirstDesktopApp.Level
         public float X { get; set; }
         public float Y { get; set; }
         public string SpriteType { get; set; } = "Crate";
+    }
+
+    public class HealthPackSpawn
+    {
+        public float X { get; set; }
+        public float Y { get; set; }
+        public int HealAmount { get; set; } = 25;
     }
 }

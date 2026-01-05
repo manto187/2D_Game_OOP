@@ -11,6 +11,7 @@ namespace FirstDesktopApp.Level
         private readonly Dictionary<string, Dictionary<int, Image>> _tileSprites = new();
         private readonly Dictionary<string, Dictionary<string, Image>> _objectSprites = new();
         private readonly Dictionary<string, Dictionary<string, Image[]>> _wraithFrames = new();
+        private readonly List<Image> _healthPackSprites = new();
         private readonly string _resourcePath;
         private string _currentTileset = "freetileset";
 
@@ -19,6 +20,8 @@ namespace FirstDesktopApp.Level
             _resourcePath = resourcePath;
             LoadTileset("freetileset");
             LoadTileset("wintertileset");
+            LoadTileset("deserttileset");
+            LoadHealthPackSprites();
             PreloadWraithFrames();
         }
 
@@ -27,24 +30,43 @@ namespace FirstDesktopApp.Level
             _tileSprites[tilesetName] = new Dictionary<int, Image>();
             _objectSprites[tilesetName] = new Dictionary<string, Image>();
 
+            // Determine tile folder name (desert uses "Tile" instead of "Tiles")
+            string tileFolder = tilesetName == "deserttileset" ? "Tile" : "Tiles";
+            string objectFolder = tilesetName == "deserttileset" ? "Objects" : "Object";
+
             // Load tiles
             for (int i = 1; i <= 18; i++)
             {
-                var path = Path.Combine(_resourcePath, tilesetName, "png", "Tiles", $"{i}.png");
+                var path = Path.Combine(_resourcePath, tilesetName, "png", tileFolder, $"{i}.png");
                 if (File.Exists(path))
                     _tileSprites[tilesetName][i] = Image.FromFile(path);
             }
 
             // Load objects based on tileset
-            string[] objects = tilesetName == "wintertileset" 
-                ? new[] { "Crate", "Crystal", "IceBox", "Igloo", "Sign_1", "Sign_2", "SnowMan", "Stone", "Tree_1", "Tree_2" }
-                : new[] { "Crate", "Stone", "Bush (1)", "Bush (2)", "Tree_1", "Tree_2", "Sign_1" };
+            string[] objects = tilesetName switch
+            {
+                "wintertileset" => new[] { "Crate", "Crystal", "IceBox", "Igloo", "Sign_1", "Sign_2", "SnowMan", "Stone", "Tree_1", "Tree_2" },
+                "deserttileset" => new[] { "Bush (1)", "Bush (2)", "Cactus (1)", "Cactus (2)", "Cactus (3)", "Grass (1)", "Grass (2)", "Mushroom_1", "SignArrow", "StoneBlock", "Tree" },
+                _ => new[] { "Crate", "Stone", "Bush (1)", "Bush (2)", "Tree_1", "Tree_2", "Sign_1" }
+            };
 
             foreach (var obj in objects)
             {
-                var path = Path.Combine(_resourcePath, tilesetName, "png", "Object", $"{obj}.png");
+                var path = Path.Combine(_resourcePath, tilesetName, "png", objectFolder, $"{obj}.png");
                 if (File.Exists(path))
                     _objectSprites[tilesetName][obj] = Image.FromFile(path);
+            }
+        }
+
+        private void LoadHealthPackSprites()
+        {
+            // Load health pack sprites (use a few different ones for variety)
+            int[] healthPackIds = { 1, 5, 10, 15, 20 };
+            foreach (var id in healthPackIds)
+            {
+                var path = Path.Combine(_resourcePath, "Health_packs", "without_shadow", $"{id}.png");
+                if (File.Exists(path))
+                    _healthPackSprites.Add(Image.FromFile(path));
             }
         }
 
@@ -147,6 +169,26 @@ namespace FirstDesktopApp.Level
             return obstacles;
         }
 
+        public List<PowerUp> BuildHealthPacks(LevelData level)
+        {
+            var healthPacks = new List<PowerUp>();
+            var random = new Random();
+
+            foreach (var spawn in level.HealthPackSpawns)
+            {
+                Image? sprite = _healthPackSprites.Count > 0 
+                    ? _healthPackSprites[random.Next(_healthPackSprites.Count)] 
+                    : null;
+                    
+                var healthPack = new PowerUp(spawn.X, spawn.Y, PowerUpType.Health, sprite)
+                {
+                    HealAmount = spawn.HealAmount
+                };
+                healthPacks.Add(healthPack);
+            }
+            return healthPacks;
+        }
+
         public void ApplyWraithAnimations(Enemy enemy, string wraithType)
         {
             if (_wraithFrames.TryGetValue(wraithType, out var animations))
@@ -159,7 +201,12 @@ namespace FirstDesktopApp.Level
         public Image? GetBackgroundImage(string? tilesetName = null)
         {
             var tileset = tilesetName ?? _currentTileset;
-            var path = Path.Combine(_resourcePath, tileset, "png", "BG", "BG.png");
+            
+            // Desert tileset has BG.png directly in png folder
+            var path = tileset == "deserttileset"
+                ? Path.Combine(_resourcePath, tileset, "png", "BG.png")
+                : Path.Combine(_resourcePath, tileset, "png", "BG", "BG.png");
+                
             return File.Exists(path) ? Image.FromFile(path) : null;
         }
 
