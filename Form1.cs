@@ -4,6 +4,7 @@ using FirstDesktopApp.Interfaces;
 using FirstDesktopApp.Level;
 using FirstDesktopApp.Movements;
 using FirstDesktopApp.Rendering;
+using FirstDesktopApp.Systems;
 using EZInput;
 
 namespace FirstDesktopApp
@@ -61,11 +62,17 @@ namespace FirstDesktopApp
             _game = new Game();
             _gameTime = new GameTime();
             
+            // Set current level for UI display
+            _game.CurrentLevel = _currentLevel;
+            
             // Subscribe to level complete event
             _game.OnLevelComplete += OnLevelComplete;
 
             _resourcePath = Path.Combine(Application.StartupPath, "Resources");
             _levelLoader = new LevelLoader(_resourcePath);
+            
+            // Initialize sound system
+            SoundManager.Instance.Initialize(_resourcePath);
             
             // Load appropriate level
             var levelData = _currentLevel switch
@@ -108,6 +115,27 @@ namespace FirstDesktopApp
                 Movement = new KeyboardMovement { Speed = 6f, JumpForce = -14f, IsGrounded = true }
             };
             player.Score = _playerScore; // Carry over score from previous level
+            
+            // Configure player shooting power based on level
+            // Higher levels = more bullets in burst, faster shooting
+            switch (_currentLevel)
+            {
+                case 3:
+                    player.BurstCount = 3;              // Triple burst
+                    player.BurstDelay = 0.06f;          // Fast burst
+                    player.ShootCooldownMultiplier = 0.7f;
+                    break;
+                case 2:
+                    player.BurstCount = 2;              // Double burst
+                    player.BurstDelay = 0.08f;          // Medium burst
+                    player.ShootCooldownMultiplier = 0.85f;
+                    break;
+                default:
+                    player.BurstCount = 1;              // Single shot
+                    player.ShootCooldownMultiplier = 1f;
+                    break;
+            }
+            
             _game.AddObject(player);
 
             // Create enemies
@@ -251,6 +279,7 @@ namespace FirstDesktopApp
         {
             _gameTimer?.Stop();
             _buffer?.Dispose();
+            SoundManager.Instance.Dispose();
             base.OnFormClosing(e);
         }
     }

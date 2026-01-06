@@ -4,25 +4,7 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="GameForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="InstructionsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="LevelCompleteForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="LevelFailedForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="LevelSelectForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="MainMenuForm.cs">
+    <Compile Update="UI\MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -2,6 +2,7 @@
 using FirstDesktopApp.Core;
 using FirstDesktopApp.Entities;
 using FirstDesktopApp.Interfaces;
+using FirstDesktopApp.Systems;
 
 namespace FirstDesktopApp.Movements
 {
@@ -53,6 +54,7 @@ namespace FirstDesktopApp.Movements
                 obj.Velocity = new PointF(obj.Velocity.X, JumpForce);
                 IsGrounded = false;
                 _coyoteTimer = 0; // Consume coyote time
+                SoundManager.Instance.Play(SoundType.PlayerJump);
             }
             _jumpPressed = jumpKeyDown;
 

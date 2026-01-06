@@ -2,6 +2,7 @@
 using FirstDesktopApp.Interfaces;
 using FirstDesktopApp.Movements;
 using FirstDesktopApp.Rendering;
+using FirstDesktopApp.Systems;
 using EZInput;
 
 namespace FirstDesktopApp.Entities
@@ -21,8 +22,18 @@ namespace FirstDesktopApp.Entities
         private float _shootCooldown;
         private bool _isShooting;
         private float _shootAnimTimer;
-        private const float InvincibilityDuration = 0.8f; // Reduced from 1.5s for more challenge
-        private const float ShootCooldown = 0.3f;
+        private const float InvincibilityDuration = 0.8f;
+        private const float BaseShootCooldown = 0.35f;
+
+        // Burst fire properties - increases with level
+        public int BurstCount { get; set; } = 1;  // Level 1: 1, Level 2: 2, Level 3: 3
+        public float BurstDelay { get; set; } = 0.08f;  // Delay between burst bullets
+        public float ShootCooldownMultiplier { get; set; } = 1f;
+        
+        // Burst tracking
+        private int _burstRemaining = 0;
+        private float _burstTimer = 0;
+        private bool _burstFacingRight = true;
 
         // Event for spawning bullets
         public event Action<Bullet>? OnShoot;
@@ -68,22 +79,49 @@ namespace FirstDesktopApp.Entities
                     _isShooting = false;
             }
 
-            // Shoot with X or Ctrl
-            if ((Keyboard.IsKeyPressed(Key.X) || Keyboard.IsKeyPressed(Key.Control)) && _shootCooldown <= 0)
+            // Handle burst fire - fire remaining bullets in burst
+            if (_burstRemaining > 0)
             {
-                _shootCooldown = ShootCooldown;
+                _burstTimer -= dt;
+                if (_burstTimer <= 0)
+                {
+                    FireSingleBullet(_burstFacingRight);
+                    _burstRemaining--;
+                    _burstTimer = BurstDelay;
+                }
+            }
+
+            float actualCooldown = BaseShootCooldown * ShootCooldownMultiplier;
+
+            // Start new burst with X or Ctrl
+            if ((Keyboard.IsKeyPressed(Key.X) || Keyboard.IsKeyPressed(Key.Control)) && _shootCooldown <= 0 && _burstRemaining == 0)
+            {
+                _shootCooldown = actualCooldown;
                 _isShooting = true;
                 _shootAnimTimer = 0.2f;
 
                 var keyboard = Movement as KeyboardMovement;
-                bool facingRight = keyboard?.FacingRight ?? true;
+                _burstFacingRight = keyboard?.FacingRight ?? true;
                 
-                float bulletX = facingRight ? Position.X + Size.Width : Position.X - 10;
-                float bulletY = Position.Y + Size.Height / 2 - 5;
+                // Play shooting sound once per burst
+                SoundManager.Instance.Play(SoundType.PlayerShoot);
                 
-                var bullet = new Bullet(bulletX, bulletY, facingRight);
-                OnShoot?.Invoke(bullet);
+                // Fire first bullet immediately
+                FireSingleBullet(_burstFacingRight);
+                
+                // Queue remaining burst bullets
+                _burstRemaining = BurstCount - 1;
+                _burstTimer = BurstDelay;
             }
+        }
+        
+        private void FireSingleBullet(bool facingRight)
+        {
+            float bulletX = facingRight ? Position.X + Size.Width : Position.X - 10;
+            float bulletY = Position.Y + Size.Height / 2 - 5;
+            
+            var bullet = new Bullet(bulletX, bulletY, facingRight);
+            OnShoot?.Invoke(bullet);
         }
 
         private void UpdateAnimation(float dt)
@@ -132,6 +170,7 @@ namespace FirstDesktopApp.Entities
             {
                 Health = Math.Min(100, Health + powerUp.HealAmount);
                 Score += 50;
+                SoundManager.Instance.Play(SoundType.HealthPickup);
             }
         }
 

@@ -27,7 +27,11 @@ namespace FirstDesktopApp.Entities
 
         public override void Draw(Graphics g)
         {
+            // Draw bullet with glow effect
+            using var glowBrush = new SolidBrush(Color.FromArgb(100, 255, 255, 100));
+            g.FillEllipse(glowBrush, Bounds.X - 2, Bounds.Y - 2, Bounds.Width + 4, Bounds.Height + 4);
             g.FillEllipse(Brushes.Yellow, Bounds);
+            g.FillEllipse(Brushes.White, Bounds.X + 2, Bounds.Y + 1, Bounds.Width - 4, Bounds.Height - 2);
         }
 
         public override void OnCollision(GameObject other)

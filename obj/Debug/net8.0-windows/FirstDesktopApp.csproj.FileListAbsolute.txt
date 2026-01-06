@@ -592,4 +592,15 @@ D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\deserttilese
 D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\deserttileset\svg\BG.svg
 D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\deserttileset\svg\Tile.svg
 D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Health_packs\47.png
-D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.MainForm.resources
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\falling.mp3
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\firing.mp3
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\health.mp3
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\jump.mp3
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\magic-spell.mp3
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\NAudio.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\NAudio.Asio.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\NAudio.Core.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\NAudio.Midi.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\NAudio.WinMM.dll

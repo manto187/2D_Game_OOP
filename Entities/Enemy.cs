@@ -2,6 +2,7 @@
 using FirstDesktopApp.Interfaces;
 using FirstDesktopApp.Movements;
 using FirstDesktopApp.Rendering;
+using FirstDesktopApp.Systems;
 
 namespace FirstDesktopApp.Entities
 {
@@ -250,6 +251,7 @@ namespace FirstDesktopApp.Entities
                 float projX = FacingRight ? Position.X + Size.Width : Position.X - 20;
                 var projectile = new EnemyProjectile(projX, Position.Y + Size.Height / 2 - 10, FacingRight);
                 OnAttack?.Invoke(projectile);
+                SoundManager.Instance.Play(SoundType.EnemySpell);
             }
         }
 
@@ -288,6 +290,7 @@ namespace FirstDesktopApp.Entities
                     _stateTimer = 1.0f;
                     SetAnimation("Dying");
                     OnDeath?.Invoke(this);
+                    SoundManager.Instance.Play(SoundType.EnemyDeath);
                 }
                 else
                 {
