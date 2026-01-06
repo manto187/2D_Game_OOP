@@ -9,7 +9,7 @@ namespace FirstDesktopApp.Rendering
     public class Camera
     {
         public PointF Position { get; set; }
-        public SizeF ViewportSize { get; }
+        public SizeF ViewportSize { get; set; }
         public RectangleF WorldBounds { get; set; }
 
         public Camera(SizeF viewportSize)

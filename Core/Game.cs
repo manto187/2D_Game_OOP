@@ -67,12 +67,15 @@ namespace FirstDesktopApp.Core
         {
             float dt = gameTime.DeltaTime / 60f;
             
-            // Handle level complete state
+            // Handle level complete state - trigger immediately for dialog forms
             if (IsLevelComplete)
             {
                 _levelCompleteTimer += dt;
-                if (_levelCompleteTimer >= 3f) // 3 second delay before transitioning
+                if (_levelCompleteTimer >= 0.5f) // Short delay for visual feedback
+                {
                     OnLevelComplete?.Invoke();
+                    _levelCompleteTimer = -999; // Prevent multiple triggers
+                }
                 return;
             }
             
@@ -206,10 +209,10 @@ namespace FirstDesktopApp.Core
             int enemiesLeft = _objects.OfType<Enemy>().Count(e => e.IsActive && !e.IsDying);
             g.DrawString($"Enemies: {enemiesLeft}", SystemFonts.DefaultFont, Brushes.White, 10, 65);
 
-            g.DrawString("Arrow/WASD = Move | Space = Jump | X = Shoot", 
+            g.DrawString("Arrow/WASD = Move | Space = Jump | X = Shoot | ESC = Menu", 
                 SystemFonts.DefaultFont, Brushes.White, 10, Camera?.ViewportSize.Height - 25 ?? 575);
 
-            // Level Complete UI
+            // Level Complete UI - brief visual feedback before dialog
             if (IsLevelComplete)
             {
                 using var font = new Font("Arial", 32, FontStyle.Bold);
@@ -218,30 +221,9 @@ namespace FirstDesktopApp.Core
                 float centerX = (Camera?.ViewportSize.Width ?? 800) / 2 - size.Width / 2;
                 float centerY = (Camera?.ViewportSize.Height ?? 600) / 2 - size.Height / 2;
                 
-                g.FillRectangle(new SolidBrush(Color.FromArgb(150, 0, 50, 0)), 
-                    centerX - 20, centerY - 10, size.Width + 40, size.Height + 50);
+                g.FillRectangle(new SolidBrush(Color.FromArgb(180, 0, 80, 0)), 
+                    centerX - 20, centerY - 10, size.Width + 40, size.Height + 20);
                 g.DrawString(text, font, Brushes.LimeGreen, centerX, centerY);
-                
-                using var smallFont = new Font("Arial", 14);
-                g.DrawString($"Score: {Player.Score}", smallFont, Brushes.Yellow, centerX + 60, centerY + size.Height);
-                g.DrawString("Loading next level...", smallFont, Brushes.White, centerX + 30, centerY + size.Height + 20);
-            }
-
-            if (Player.IsDead)
-            {
-                using var font = new Font("Arial", 32, FontStyle.Bold);
-                var text = "GAME OVER";
-                var size = g.MeasureString(text, font);
-                float centerX = (Camera?.ViewportSize.Width ?? 800) / 2 - size.Width / 2;
-                float centerY = (Camera?.ViewportSize.Height ?? 600) / 2 - size.Height / 2;
-                
-                g.FillRectangle(new SolidBrush(Color.FromArgb(150, 0, 0, 0)), 
-                    centerX - 20, centerY - 10, size.Width + 40, size.Height + 50);
-                g.DrawString(text, font, Brushes.Red, centerX, centerY);
-                
-                using var smallFont = new Font("Arial", 14);
-                g.DrawString($"Final Score: {Player.Score}", smallFont, Brushes.Yellow, centerX + 30, centerY + size.Height);
-                g.DrawString("Press R to Restart", smallFont, Brushes.White, centerX + 20, centerY + size.Height + 20);
             }
         }
 
