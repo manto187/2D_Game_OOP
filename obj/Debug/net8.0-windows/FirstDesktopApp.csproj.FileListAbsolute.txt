@@ -592,9 +592,4 @@ D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\deserttilese
 D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\deserttileset\svg\BG.svg
 D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\deserttileset\svg\Tile.svg
 D:\GAME WITH OOP\FirstDesktopApp\bin\Debug\net8.0-windows\Resources\Health_packs\47.png
-D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.GameForm.resources
-D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.InstructionsForm.resources
-D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.LevelCompleteForm.resources
-D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.LevelFailedForm.resources
-D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.LevelSelectForm.resources
-D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.MainMenuForm.resources
+D:\GAME WITH OOP\FirstDesktopApp\obj\Debug\net8.0-windows\FirstDesktopApp.MainForm.resources

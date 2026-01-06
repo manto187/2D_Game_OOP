@@ -9,7 +9,7 @@ namespace FirstDesktopApp
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new MainMenuForm());
+            Application.Run(new MainForm());
         }
     }
 }
