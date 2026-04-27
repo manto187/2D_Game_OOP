@@ -17,3 +17,28 @@ A robust 2D platformer game built from scratch using **C#** and **Windows Forms*
     *   Frame-based game loop with delta time handling.
     *   Buffered Graphics to prevent flickering.
     *   Persistent scoring across levels.
+
+## 🛠️ Technical Stack
+
+*   **Language**: C#
+*   **Framework**: .NET / WinForms
+*   **Architecture**: OOP (Interfaces, Polymorphism, Singleton Pattern for Sound/Managers)
+*   **Input**: `EZInput` library for smooth keyboard handling.
+
+## 🎮 Controls
+
+| Action | Key |
+| :--- | :--- |
+| **Move Left/Right** | `A` / `D` or `Arrow Keys` |
+| **Jump** | `Space` / `W` |
+| **Shoot** | `X` / `Left Ctrl` |
+| **Restart (on Death)** | `R` |
+
+## 📁 Project Structure
+
+*   `/Core`: Main Game engine and Camera logic.
+*   `/Entities`: Player, Enemy, and GameObject definitions.
+*   `/Level`: Level data and automated Level Loader.
+*   `/Movements`: Different AI and Player movement strategies.
+*   `/Rendering`: Sprite loading and animation systems.
+*   `/Systems`: Sound management and collision handling.
