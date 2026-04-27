@@ -42,3 +42,18 @@ A robust 2D platformer game built from scratch using **C#** and **Windows Forms*
 *   `/Movements`: Different AI and Player movement strategies.
 *   `/Rendering`: Sprite loading and animation systems.
 *   `/Systems`: Sound management and collision handling.
+
+*   ## ⚙️ Installation & Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/manto187/2D_Game_OOP.git
+    ```
+2.  **Open in Visual Studio**:
+    Open the `FirstDesktopApp.sln` file.
+3.  **Restore NuGet Packages**:
+    Ensure `EZInput` is restored.
+4.  **Resources**:
+    Ensure the `Resources/` folder is present in your output directory (`bin/Debug/`) to load sprites and sounds.
+
+---
